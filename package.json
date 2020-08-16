@@ -2,7 +2,7 @@
   "name": "artemisia",
   "version": "1.0.0",
   "description": "This is a website for an organization that shows independent movies",
-  "main": "Home.html",
+  "main": "index.html",
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite",

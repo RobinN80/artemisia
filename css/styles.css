@@ -1,7 +1,15 @@
 .card-title {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 body {
-    background-image: url(/Artemisia/images/background.jpg);
+    background-image: url(/images/background.jpg);
+}
+
+#ticketPage {
+    background-image: url(/images/popcorn.jpg);
+}
+
+.navbar {
+    background-color: gray;
 }
