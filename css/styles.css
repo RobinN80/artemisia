@@ -4,6 +4,8 @@
 
 body {
     background-image: url(/images/background.jpg);
+    font-family: 'Courgette', cursive;
+    font-size: 20px ;
 }
 
 #ticketPage {

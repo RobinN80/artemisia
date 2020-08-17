@@ -11,7 +11,9 @@
             <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"/>
             <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+            <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="css/styles.css" />
+            
     <title>Artemisia MovieHouse</title>
 
         </head>
@@ -34,9 +36,34 @@
 
             </nav>
 
+            <div class="modal" tabindex="-1" role="dialog" id="ticketModal">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Artemisia MovieHouse Ticket Office</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <h2 class="text-center">Tickets</h2>
+                        <p>Currently we are accepting cash only!</p>
+                        <p>$5 - Members </br>
+                            $7 - Students/Seniors
+                            ​(62 & up)</br>
+                            $9 - General Admission</p>
+                        <p>Free Popcorn With Admission</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             <div class="container-fluid">
                 <div class="row">
-                    <h1 class="col">Upcoming Films</h1>
+                    <h1 class="col">Upcoming Films:</h1>
                 </div>
                 <div class="row">
                     <div class="col-12 col-sm-4">
@@ -55,7 +82,7 @@
                                     ​In Vietnamese with English subtitles
                                 </p>
 
-                                <a href="tickets.html" class="btn btn-warning">Tickets</a>  
+                                <button class="btn btn-warning" data-toggle="modal" data-target="#ticketModal">Tickets</button>  
 
                                 <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#descriptionTheScent" id="buttonTheScent">More Info</button>
                             </div>
@@ -93,13 +120,12 @@
                         <div class="card" style="width: 14rem;">
                             <img class="card-img-top img-fluid" src="images/buneal.jpg" alt="Bunuel In the labyrinth of turtles Image">
                             <div class="card-body">
-                                <p>Bunuel in the Labyrinth of Turtles</p>
+                                <h5>Bunuel in the Labyrinth of Turtles</h5>
                                 <p class="card-text d-none d-sm-block">(2018) Spain </br>
                                 Animation/Comedy</br>
                                 ​Originally in Spanish/French
-                                </p>
-                                
-                                <p class="collapse" id="...">
+                                </p>                                
+                                <p class="collapse" id="descriptionBunuel">
                                      </br>
                                     POSTPONED - originally June 21 - </br>
                                     BUNUEL IN THE LABYRINTH OF TURTLES </br>
@@ -110,7 +136,7 @@
                                 </p>  
                                 <a href="tickets.html" class="btn btn-warning">Tickets</a>
 
-                                <button role="button" class="btn btn-primary" id="buttonTheScent" data-toggle="collapse" data-target="#...">More Info</button>
+                                <button role="button" class="btn btn-primary" id="buttonBunuel" data-toggle="collapse" data-target="#descriptionBunuel">More Info</button>
                             </div>
                         </div>
                     </div>
