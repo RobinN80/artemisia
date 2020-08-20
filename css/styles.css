@@ -15,3 +15,8 @@ body {
 .navbar {
     background-color: gray;
 }
+
+.card-text, .card-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
