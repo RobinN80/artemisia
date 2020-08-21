@@ -20,3 +20,6 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.alert {
+    margin: 0;
+}
